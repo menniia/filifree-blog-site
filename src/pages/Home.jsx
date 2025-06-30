@@ -138,8 +138,8 @@ const Home = () => {
                         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
                     >
                         {[
-                            { category: 'Articles', title: 'The Art of Storytelling in Modern Media', excerpt: 'Exploring how narrative techniques have evolved...' },
-                            { category: 'Short Stories', title: 'Midnight Reflections', excerpt: 'A contemplative piece about finding meaning in...' },
+                            { category: 'Short Stories', title: "Midnight at 5 O'clock", excerpt: "Follow who know road. Lol There aren’t so many good days in life...", link: "https://doctorfilifree.wordpress.com/" },
+                            { category: 'Articles', title: 'Midnight Reflections', excerpt: 'A contemplative piece about finding meaning in...' },
                             { category: 'Series', title: 'Writing Tips for Beginners - Part 1', excerpt: 'Starting your writing journey can be overwhelming...' },
                         ].map((post, index) => (
                             <motion.div
@@ -155,13 +155,23 @@ const Home = () => {
                                     {post.title}
                                 </h3>
                                 <p className="text-gray-600 mb-4">{post.excerpt}</p>
-                                <Link
+                                <a
+                                    href={post.link}
+                                    target="_blank"
+                                    className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
+                                >
+                                    Read More
+                                    <ArrowRight className="ml-1 h-4 w-4" />
+                                </a>
+
+                                {/* when i link to blog page, then I'll uncomment this code and delete the anchor code */}
+                                {/* <Link
                                     to="/blog"
                                     className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
                                 >
                                     Read More
                                     <ArrowRight className="ml-1 h-4 w-4" />
-                                </Link>
+                                </Link> */}
                             </motion.div>
                         ))}
                     </motion.div>
