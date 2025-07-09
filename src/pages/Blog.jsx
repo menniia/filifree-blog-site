@@ -207,7 +207,7 @@ const Blog = () => {
                 <section className="py-16">
                     <div className="container mx-auto px-4">
                         <motion.div variants={itemVariants} className="mb-8">
-                            <h2 className="text-3xl font-serif font-bold text-gray-900 mb-2">Featured Post</h2>
+                            <h2 className="text-3xl font-bold text-gray-900 mb-2">Featured Post</h2>
                             <p className="text-gray-600">Don't miss this highlighted piece</p>
                         </motion.div>
 
@@ -230,7 +230,7 @@ const Blog = () => {
                                     </div>
                                 </div>
                                 <div className="p-8 lg:p-12 flex flex-col justify-center">
-                                    <h3 className="text-3xl font-serif font-bold text-gray-900 mb-4">
+                                    <h3 className="text-3xl font-bold text-gray-900 mb-4">
                                         {featuredPost.title}
                                     </h3>
                                     <p className="text-gray-600 mb-6 leading-relaxed">
@@ -263,7 +263,7 @@ const Blog = () => {
             <section className="py-16 bg-gray-50">
                 <div className="container mx-auto px-4">
                     <motion.div variants={itemVariants} className="mb-12">
-                        <h2 className="text-3xl font-serif font-bold text-gray-900 mb-2">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-2">
                             {category && category !== 'all' ? 'All Posts in Category' : 'Latest Posts'}
                         </h2>
                         <p className="text-gray-600">
@@ -296,7 +296,7 @@ const Blog = () => {
                                 </div>
 
                                 <div className="p-6">
-                                    <h3 className="text-xl font-serif font-bold text-gray-900 mb-3 line-clamp-2">
+                                    <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2">
                                         {post.title}
                                     </h3>
                                     <p className="text-gray-600 mb-4 line-clamp-3">
@@ -329,7 +329,7 @@ const Blog = () => {
                             className="text-center py-16"
                         >
                             <BookOpen className="h-16 w-16 text-gray-400 mx-auto mb-4" />
-                            <h3 className="text-2xl font-serif font-bold text-gray-900 mb-2">
+                            <h3 className="text-2xl font-bold text-gray-900 mb-2">
                                 No posts found
                             </h3>
                             <p className="text-gray-600 mb-6">
@@ -352,7 +352,7 @@ const Blog = () => {
                 <div className="container mx-auto px-4">
                     <motion.div variants={itemVariants} className="text-center max-w-2xl mx-auto">
                         <PenTool className="h-16 w-16 mx-auto mb-8" />
-                        <h2 className="text-4xl font-serif font-bold mb-6">
+                        <h2 className="text-4xl font-bold mb-6">
                             Never Miss a Story
                         </h2>
                         <p className="text-xl mb-8 leading-relaxed">
