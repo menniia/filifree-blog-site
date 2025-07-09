@@ -63,10 +63,11 @@ const About = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <motion.div variants={itemVariants} className="space-y-8">
                             <h1 className="text-5xl md:text-6xl text-[#212121] leading-tight">About me</h1>
-                            <p className="text-xl text-[#212121] leading-relaxed"> I go by the name of Samuel Kwesi Mintah, popularly known as Dr. Filifree, I am a passionate writer and editor with over 8 years of experience
-                                crafting compelling narratives and helping others tell their stories.
-                                My mission is to bring clarity, creativity, and authenticity to every
-                                piece of writing I touch.
+                            <p className="text-xl text-[#212121] leading-relaxed">
+                                People don’t often come here but for you who want to know about me , i appreciate you. I write from the heart of the hospital where life’s fragility and resilience meet. From the homes and streets where life thrives . I share vivid narratives from wards, corridors, and consulting rooms, revealing the human side of medicine. My stories blend clinical insight with emotional depth, exploring how how compassion can heal beyond prescriptions. Through this blog, where medicine meets meaning, I advocate for stronger health systems, public health reforms, and care rooted in empathy.
+                                <p>My name is <span className="font-bold">drfilifree.</span> </p>
+                                <p>Feel free and hear me out 😊</p>
+
                             </p>
                             <div className="flex items-center space-x-6">
                                 <div className="flex items-center space-x-2">

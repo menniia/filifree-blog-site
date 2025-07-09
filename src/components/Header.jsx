@@ -73,7 +73,7 @@ const Header = () => {
                             initial={{ opacity: 0, height: 0 }}
                             animate={{ opacity: 1, height: 'auto' }}
                             exit={{ opacity: 0, height: 0 }}
-                            className="md:hidden mt-4 py-4 border-t border-gray-200"
+                            className="md:hidden border-t border-gray-200 bg-white w-screen px-4 py-4"
                         >
                             {navItems.map((item, index) => (
                                 <motion.div
